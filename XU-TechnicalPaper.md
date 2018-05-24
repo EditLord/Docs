@@ -263,14 +263,14 @@ To support FIAT/Crypto pairs, FIAT has to be ‘tokenized’ to be tradable on E
 
 3.7.1. The [USDT](https://tether.to/) way
 -----------------------------------------
-Tether (the company) holds one USD in a “reserve bank account” for every USDT issued. And ideally be transparent about it.
+Tether (the company) holds one USD in a “reserve bank account” for every USDT issued, and in an ideal world does so in a transparent manner.
 
-**Good** This would work for all FIAT currencies that our bank supports
+**Advantages** This could potentially work for all FIAT currencies that the bank supports
 
-**Bad** History has shown that this is problematic for the following reasons:
-- Even if I’m 100% transparent, the bank could just cut ties with me, as [happened multiple times with Tether Limited](https://news.bitcoin.com/tether-coin-may-be-a-precarious-us-dollar-peg/). News go public, Markets panic
-- If I’m rather semi-transparent, like Tether Limited, people have to put trust and faith in Tether to really have those USD on their bank account. And to handle bank relationships. It simply is not trustless.
-- We would have to act like a central bank and issue new USDX tokens to increase supply based on demand. This requires us to hold USDX somewhere under central control, which is a SPOF for hackers. [As happened with Tether.](https://techcrunch.com/2017/11/20/tether-claims-a-hacker-stole-31m/)
+**Drawbacks** Unfortunately history has shown that this can be problematic for multiple reasons.
+- Even if totally transparent, there is still the risk of banks cutting ties with the company, as has [happened multiple times with Tether Limited](https://news.bitcoin.com/tether-coin-may-be-a-precarious-us-dollar-peg/), causing the market to panic.
+- With partially transparent practices, traders must trust that Tether has the USD in reserve and to properly handle relationships with the banks. However, this is counter to the trustless philosophy of blockchain technology.
+- The Tether approach also requires acting like a central bank and issuing new tokens to increase supply to match demand. This necessitates holding the tokens under central control, which is a single point of failure for hackers, again violating the decentralized nature of blockchain. [Tether hacked for 31 million dollars](https://techcrunch.com/2017/11/20/tether-claims-a-hacker-stole-31m/)
 
 
 3.7.2. The [BitShares](https://bitshares.org/technology/price-stable-cryptocurrencies/) Way
